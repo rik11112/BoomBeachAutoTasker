@@ -24,7 +24,7 @@ while worked:
     if salvaged:
         worked = worked and locateAndClick("img/building_options/sculptor/confirm_salvage.png")
         deFocus()
-    worked = worked and openSculptor()
+        worked = worked and openSculptor()
     worked = worked and locateAndClick(f"img/building_options/sculptor/{type}.png")
     worked = worked and locateAndClick(f"img/building_options/sculptor/{type}_idol.png")
     print("Waiting 10 seconds for idol to be made.")
