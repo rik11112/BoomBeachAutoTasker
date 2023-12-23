@@ -34,6 +34,7 @@ To start the application, follow these steps:
     python make_idols.py [crystal_type]
     ```
     Replace `[crystal_type]` with one of the following options: `life`, `ice`, `magma`, or `dark` (optional).
+4. Make sure the screen of Boom Beach is visible and the nessesary buildings are clearly in view, if an image can't be found no matter what you do, take new pictures and replace them in the img folder.
 
     
 
